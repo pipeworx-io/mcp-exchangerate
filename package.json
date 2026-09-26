@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-exchangerate",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ExchangeRate MCP — wraps open.er-api.com (free, no auth)",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-42ae5fbee57c781b3ac4c6681c3055d534ab56d1310108851006e00df278c235",
-    "sourceCommit": "76aa8f5d9b5dc2f665563030647c68e661478864"
+    "sourceHash": "v1-34ba4331836ad2e0853ea85c24c6667eda940b0631a3ebd1ea0ddf1662bcbdb4",
+    "sourceCommit": "91681e9a4a137fa0051d58e32f38c64b6334af5c"
   }
 }
