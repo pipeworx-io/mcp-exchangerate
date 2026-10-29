@@ -1,0 +1,39 @@
+[
+  {
+    "name": "get_rates",
+    "description": "Get current exchange rates for a base currency (e.g., 'USD', 'EUR'). Returns conversion rates for all major currencies. Use when you need multiple rates at once.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "base_currency": {
+          "type": "string",
+          "description": "ISO 4217 currency code to use as the base (e.g., \"USD\", \"EUR\", \"GBP\")"
+        }
+      },
+      "required": [
+        "base_currency"
+      ]
+    }
+  },
+  {
+    "name": "get_pair",
+    "description": "Get the current exchange rate between two specific currencies (e.g., USD to EUR). Returns the conversion rate. Use for single currency pair lookups.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "from": {
+          "type": "string",
+          "description": "Source currency code (e.g., \"USD\")"
+        },
+        "to": {
+          "type": "string",
+          "description": "Target currency code (e.g., \"JPY\")"
+        }
+      },
+      "required": [
+        "from",
+        "to"
+      ]
+    }
+  }
+]
