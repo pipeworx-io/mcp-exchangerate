@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-exchangerate",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "ExchangeRate MCP — wraps open.er-api.com (free, no auth)",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "exchangerate",
     "gatewaySlug": "exchangerate",
-    "sourceHash": "v1-40960c4a82db1b83fb1d4bcae0fef77f80b4b614e725bd9de4d1f4c3a397687f",
-    "sourceCommit": "bb047243cf27f32453103de186b8e6a8b6a1ce79"
+    "sourceHash": "v1-0a2e7c7162b484d8b953ab96a4a2c078fdafba70dd43cc5f322b8bacca18fc17",
+    "sourceCommit": "d35e32c1ffe988e24d391dedb35666387fd2b3d6"
   }
 }
